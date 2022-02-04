@@ -1,0 +1,134 @@
+head{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    color:hotpink;
+}
+h4{
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+  }
+  .body2{
+      align-content: left;
+      display: flex;
+      flex-wrap: nowrap;
+    
+      
+  }
+
+blockquote {
+    margin: 0;
+    margin-right:20px;
+ 
+}
+
+blockquote p {
+    padding: 3px;
+    background: #eee;
+    border-radius: 2px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+  
+
+    img {
+    max-width: 90%;
+    height: auto;
+   margin-left: 20px;
+    }
+
+    .dropdownbtn {
+        background-color: black;
+        color: white;
+        padding: 12px;
+        font-size: 12px;
+       margin-left: 670;
+       margin-top: -230;
+        }
+       
+        .dropdownlist-content {
+        display: none;
+        position: absolute;
+        background-color: greenyellow;
+        min-width: 120px;
+        z-index: 1;
+          margin-left: 670;
+       
+        }
+        .dropdownlist-content a {
+        color: darkblue;
+        padding: 14px 18px;
+        display: block;
+        }
+        .dropdownlist-content a:hover {background-color: lightcyan;}
+        .dropdowndemo:hover .dropdownlist-content {display: block;}
+        .dropdowndemo:hover .dropdownbtn {background-color: blue;}
+        .dropdownbtn2 {
+            background-color: black;
+            color: white;
+            padding: 12px;
+            font-size: 12px;
+           margin-left: 900;
+           margin-top: -230;
+            }
+           
+            .dropdownlist-content2 {
+            display: none;
+            position: absolute;
+            background-color: greenyellow;
+            min-width: 120px;
+          
+              margin-left: 900;
+           
+            }
+            .dropdownlist-content2 p {
+                color: darkblue;
+                padding: 4px 18px;
+                display: block;
+                }
+         
+            .dropdownlist-content2 a:hover {background-color: lightcyan;}
+            .dropdowndemo2:hover .dropdownlist-content2 {display: block;}
+            .dropdowndemo2:hover .dropdownbtn2 {background-color: blue;}
+            .li1 {
+                list-style-image: url(/Users/jolene/Desktop/core2jolenechen/media/sparkle.png);
+
+  
+             }
+             a:link {
+                text-decoration: none;
+              }
+              
+              a:visited {
+                text-decoration: none;
+              }
+              
+              a:hover {
+                text-decoration: underline;
+                text-transform: capitalize;
+              }
+              
+              a:active {
+                text-decoration: underline;
+              }
+           
+            
+  
