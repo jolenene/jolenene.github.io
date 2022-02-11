@@ -1,0 +1,161 @@
+li
+{
+    text-align: center;
+ width:30px;
+ margin-left: 530px;
+
+}
+ul{
+    font-family:'Hammer Bold Outline';
+    text-align: center;
+    color:antiquewhite;
+    margin-left: -50px;
+
+}
+h1{
+    font-family:'Hammer Bold';
+    color: white;
+    text-align: center;
+  
+}
+ol{
+    text-align:center;
+    color:bisque;
+}
+body{
+    background-color: black;
+    
+}
+p{
+    font-family:'Hammer Bold';
+    color:bisque;
+    text-align:center;
+}
+#line1{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -50px;
+}
+
+#line2{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -100px;
+}
+#line3{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -40px;
+
+}
+#line4{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -60px;
+
+}
+#line5{
+    text-align:center;
+    line-height: 1cm;
+    margin-left: -50px;
+
+}
+#line6{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: 50px;
+
+}
+#line7{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -150px;
+
+}
+#line8{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -100px;
+
+}
+#line9{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -50px;
+
+}
+#line10{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: 0px;
+
+}
+#line11{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -50px;
+
+}
+#line12{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -50px;
+
+}
+#line13{
+    text-align:center;
+    line-height: 2cm;
+    margin-left: -50px;
+}
+#line14{
+   
+    margin-top: -900px;
+    margin-left: 400px;
+    color:black;
+}
+
+#line15{
+ 
+    margin-top: 100px;
+    margin-left:-600px;
+    color:black;
+}
+#line16{
+ 
+  
+    margin-top:300px;
+    margin-left: 600px;
+    color:black;
+}
+#line17{
+  
+    margin-top: 50px;
+    margin-left: -800px;
+    color:black;
+}
+#line18{
+ 
+    margin-top: -0px;
+    margin-left: 0px;
+    color:black;
+}
+
+
+#line1:hover{color:rgb(46,46,46);}
+#line2:hover{color:rgb(46, 46, 46);}
+#line3:hover{color:rgb(46, 46, 46);}
+#line4:hover{color:rgb(46, 46, 46);}
+#line5:hover{color:rgb(46, 46, 46);}
+#line6:hover{color:rgb(46, 46, 46);}
+#line7:hover{color:rgb(46, 46, 46);}
+#line8:hover{color:rgb(46, 46, 46);}
+#line9:hover{color:rgb(46, 46, 46);}
+#line10:hover{color:rgb(46, 46, 46);}
+#line11:hover{color:rgb(46, 46, 46);}
+#line12:hover{color:rgb(46, 46, 46);}
+#line13:hover{color:rgb(46, 46, 46);}
+#line14:hover{color:rgb(254,236,200);}
+#line15:hover{color:rgb(254,236,200);}
+#line16:hover{color:rgb(254,236,200);}
+#line17:hover{color:rgb(254,236,200);}
+#line18:hover{color:rgb(254,236,200);}
