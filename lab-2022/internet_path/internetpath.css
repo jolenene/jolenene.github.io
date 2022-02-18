@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Hammer';
+    src: url('HammerBold.woff2') format('woff2'),
+        url('HammerBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('Spectral-Regular.woff2') format('woff2'),
+        url('Spectral-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-ExtendedLight.woff2') format('woff2'),
+        url('Sprat-ExtendedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
+  .assets{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    padding:10px; 
+    justify-content: space-between;
+
+  }
+  body{
+      margin:5px;  
+      padding:5px;
+      background-color: #fefbd8
+  }
+  h1{
+      text-align: center;
+      margin:30px;
+      padding:3px;
+      font-family:'Hammer Bold';
+      font-size: 40px;
+  color:blue
+      
+  }
+  h2{
+      text-align: center;
+      margin:2px;
+      padding:10px;
+      font-family: 'Spectral-Regular';
+      font-size: 20px;
+      color:cornflowerblue
+  }
+  pre{
+    font-family: 'Spectral-Regular';
+      margin:10px;
+      font-size: 15px;
+      background-color: aliceblue;
+
+  }
+  ul{
+    width: 400px; 
+	margin-left: auto; 
+	margin-right: auto; 
+    font-family: 'Sprat-ExtendedLight';
+    color:darkturquoise
+  
+  }
+  #cursor{
+      margin-top: 100px;
+      background-color:navajowhite;
+  }
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+  
+ .nav li {
+    float: left;
+  }
+  
+ .nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 15px;
+    text-decoration: none;
+  }
+  
+ .nav li a:hover:not(.active) {
+    background-color: rgb(187, 187, 187);
+  }
+  

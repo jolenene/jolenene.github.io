@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Hammer Bold Outline';
+    src: url('HammerBoldOutline.woff2') format('woff2'),
+        url('HammerBoldOutline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hammer Bold';
+    src: url('HammerBold.woff2') format('woff2'),
+        url('HammerBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 li
 {
     text-align: center;
@@ -6,14 +22,14 @@ li
 
 }
 ul{
-    font-family:'Hammer Bold Outline';
+    font-family:'HammerBoldOutline';
     text-align: center;
     color:antiquewhite;
     margin-left: -50px;
 
 }
 h1{
-    font-family:'Hammer Bold';
+    font-family:'HammerBold';
     color: white;
     text-align: center;
   
