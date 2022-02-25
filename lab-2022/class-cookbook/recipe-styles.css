@@ -7,7 +7,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Hammer Bold';
+    font-family: 'HammerBold';
     src: url('HammerBold.woff2') format('woff2'),
         url('HammerBold.woff') format('woff');
     font-weight: bold;
