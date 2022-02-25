@@ -1,19 +1,7 @@
-@font-face {
-    font-family: 'HammerBoldOutline';
-    src: url('HammerBoldOutline.woff2') format('woff2'),
-        url('HammerBoldOutline.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'HammerBold';
-    src: url('HammerBold.woff2') format('woff2'),
-        url('HammerBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
+
+@font-face{font-family:HammerBoldOutline; src: url('media/HammerBoldOutline.woff2');}
+@font-face{font-family:HammerBold; src: url('media/HammerBold.woff2');}
+
 li
 {
     text-align: center;
