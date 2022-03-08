@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+  .marquee {
+   
+
+    margin: -1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+   
+    color: #000;
+    
+  }
+  
+  .marquee span {
+    display: inline-block;
+   
+    animation: marquee 20s linear infinite;
+    cursor: default;
+  }
+  
+  .marquee span:hover {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  
+  
+  /* Make it move */
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0)
+    }
+    100% {
+      transform: translate(-100%, 0)
+    }
+  }
