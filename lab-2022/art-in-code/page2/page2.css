@@ -1,0 +1,39 @@
+body{
+    background-color:black;
+    
+}
+h1{
+    padding-top: 100px;
+    color:#FAF9F6;
+    font-family:Ramarja-Regular;
+    font-size: 70px;
+    text-align: center;
+    }
+    #bots{
+        text-align: center;
+    }
+p{
+    color:#FAF9F6;
+   
+    padding-left: 150px;
+    padding-right:150px;
+    text-align: center;
+    font-family: Ramarja-Regular;
+   padding-top: 70px;
+    font-size: 20px;
+}
+#space{
+    height:300px;
+}
+#x {
+    border: none;
+    background-color: transparent;
+    height: 2000px;
+    position: relative;
+    margin-top:-2000px;
+}
+
+#x .icon {
+    position: absolute;
+    z-index: 2;
+}
