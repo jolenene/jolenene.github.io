@@ -1,0 +1,54 @@
+@font-face{font-family:HammerBoldOutline; src: url('/Users/jolene/Desktop/core2jolenechen/lab-2022/bubbles/HammerBoldOutline copy.woff2');}
+@font-face{font-family:HammerBold; src: url('/Users/jolene/Desktop/core2jolenechen/lab-2022/bubbles/HammerBold copy.woff2');}
+
+
+html{
+    font-size: 62.5%
+}
+body{
+    margin: 0;
+    background-color: rgb(245, 245, 240);
+}
+h1{
+    font-family:'HammerBold';
+    color: black;
+    text-align: center;
+  
+}
+@media screen and (min-width: 480px) {
+    h1 {
+          font-size: 32px;
+    }
+}
+@media screen and (min-width: 720px) {
+    body {
+        background-color:black;
+    }
+   #container{
+        background-color:black;
+   }
+    h1{
+        color:aliceblue;
+    }
+}
+h2 {
+    color: lightblue;
+  }
+
+#container{
+    width:100vh;
+    height:100vh;
+
+}
+
+.bubble{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color:aliceblue;
+    border:solid .1rem rgba(220, 226, 226, 0.2);
+    border-radius: 50%;
+    box-shadow: inset -.3rem -.3rem .8rem rgba(106, 198, 198, 0.3);
+    cursor: pointer; 
+    
+}
