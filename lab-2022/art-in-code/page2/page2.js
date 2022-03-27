@@ -6,15 +6,15 @@
             var icon_width = 10;
             var icon_height = 10;
             var the_images = [
-                '/Users/jolene/Desktop/art-in-code/page2/media/c1.png',
-                '/Users/jolene/Desktop/art-in-code/page2/media/m1.png',
-                '/Users/jolene/Desktop/art-in-code/page2/media/o1.png',
+                '/Users/jolene/Desktop/core2jolenechen/lab-2022/art-in-code/page2/media/c1.png',
+                '/Users/jolene/Desktop/core2jolenechen/lab-2022/art-in-code/page2/media/m1.png',
+                '/Users/jolene/Desktop/core2jolenechen/lab-2022/art-in-code/page2/media/o1.png',
             ];
             var pickRandomImage = function(){
                 var i = Math.floor( Math.random() * the_images.length );
                 return the_images[i];
             };
-            var total_number_of_images = 20;
+            var total_number_of_images = 25;
             var max_height = canvas.offsetHeight - icon_height;
             var max_width = canvas.offsetWidth - icon_width;
             var randomCoordinate = function(){
