@@ -1,0 +1,14 @@
+.cursor{
+  
+    position:absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+*{
+    cursor:none;
+}
+.mouse-down{
+    border:2px solid cornflowerblue;
+    background: cornflowerblue;
+    
+}
