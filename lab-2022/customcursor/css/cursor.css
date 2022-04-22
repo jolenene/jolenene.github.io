@@ -8,7 +8,14 @@
     cursor:none;
 }
 .mouse-down{
-    border:2px solid cornflowerblue;
-    background: cornflowerblue;
+    border:2px solid black;
+    background: black;
+    border-radius: 50%;
     
 }
+body {
+    background-image: url("/Users/jolene/Desktop/core2jolenechen/lab-2022/customcursor/Sprite-0001.png");
+  
+    background-size: 1500px;
+  
+   }
